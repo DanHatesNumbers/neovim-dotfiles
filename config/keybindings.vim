@@ -3,7 +3,7 @@ let mapleader = ','
 " Edit config
 map <leader>eg :e ~/.config/nvim/config/general.vim<cr>
 map <leader>ek :e ~/.config/nvim/config/keybindings.vim<cr>
-map <leader>ev :e ~/.config/nvim/config/vundle.vim
+map <leader>ev :e ~/.config/nvim/config/vundle.vim<cr>
 
 " Reload config
 map <leader>rc :so ~/.config/nvim/init.vim<cr>
@@ -29,3 +29,5 @@ nmap <leader>cb :Cbuild<cr>
 nmap <leader>cr :Crun<cr>
 
 inoremap jj <esc>
+
+nnoremap <leader>cc :CocCommand<cr>
